@@ -13,3 +13,13 @@ chat.py to start asking questions
 or you can just keep the processed folder and do `chat.py`
 
 The processed data was generated on the day of the first commit for this repo
+
+You can set you Python env with:
+
+```
+python -m venv env
+
+source env/bin/activate
+
+pip install -r requirements.txt
+```
