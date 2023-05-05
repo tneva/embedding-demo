@@ -1,4 +1,4 @@
-Based on the code taken from the OpenAI embedding demo, I've just broken things up and refactored some code to avoid rate limiting when getting the embed vectors for each line in the `scraped.csv` file.
+Based on the code taken from the [OpenAI embedding demo](https://platform.openai.com/docs/tutorials/web-qa-embeddings), I've just broken things up and refactored some code to avoid rate limiting when getting the embed vectors for each line in the `scraped.csv` file.
 
 I've chosen to leave the processed files in as generating the embedded data can be quite time consuming, this makes it easier to see how things are working as you can just run `chat.py` to see how things work.
 
