@@ -109,6 +109,10 @@ def answer_question(
 ### Ask some questions!
 ################################################################################
 
+if os.getenv("OPENAI_API_KEY") == "" or os.getenv("OPENAI_ORG_ID") == "":
+    print('make sure you have set OPENAI_API_KEY and OPENAI_ORG_ID')
+    quit()
+
 print(answer_question(df, question="What day is it?", debug=False))
 
 print(answer_question(df, question="What is our newest embeddings model?"))
